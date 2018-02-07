@@ -82,7 +82,7 @@
               }
             })
     }
-    if ($("#satisfaction-chart").length) {
+    if (document.getElementById('satisfaction-chart').length) {
       var ctx = document.getElementById('satisfaction-chart').getContext("2d");
 
       var gradientStrokeBluePurple = ctx.createLinearGradient(0, 0, 0, 250);
@@ -144,7 +144,7 @@
                   radius: 0
                 }
               }
-            })
+          })
     }
   });
 })(jQuery);
